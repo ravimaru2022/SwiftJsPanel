@@ -31,7 +31,14 @@ public class WebkitClass: NSObject {
 
         //webView.uiDelegate = self
         //webView.navigationDelegate = self
-        if let url = Bundle.main.url(forResource: "index", withExtension: "html") {
+        let bundle = Bundle(for: WebkitClass.self)
+        //[[NSBundle bundleForClass:[WebkitClass class]] URLForResource:@"indexA" withExtension:@".html"];
+
+        //let bundle = Bundle(for: Self.self)
+        //if let url = bundle.url(forResource: "indexA", withExtension: "html") {
+        //print(bundle)
+        //print(Bundle(for: WebkitClass.self).url(forResource: "indexA", withExtension: ".html")!)
+        if let url = Bundle(for: WebkitClass.self).url(forResource: "indexA", withExtension: ".html") {
             webView.loadFileURL(url, allowingReadAccessTo: url.deletingLastPathComponent())
         }
     }

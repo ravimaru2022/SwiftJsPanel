@@ -14,8 +14,7 @@
 		261064E729506AC300B0AF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261064E529506AC300B0AF0D /* Main.storyboard */; };
 		261064E929506AC400B0AF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261064E829506AC400B0AF0D /* Assets.xcassets */; };
 		261064EC29506AC400B0AF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261064EA29506AC400B0AF0D /* LaunchScreen.storyboard */; };
-		261064F229506B3C00B0AF0D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 261064F129506B3C00B0AF0D /* index.html */; };
-		261064F429506C0500B0AF0D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 261064F329506C0500B0AF0D /* index.html */; };
+		261064F229506B3C00B0AF0D /* indexA.html in Resources */ = {isa = PBXBuildFile; fileRef = 261064F129506B3C00B0AF0D /* indexA.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +28,7 @@
 		261064E829506AC400B0AF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		261064EB29506AC400B0AF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		261064ED29506AC400B0AF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		261064F129506B3C00B0AF0D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		261064F329506C0500B0AF0D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		261064F129506B3C00B0AF0D /* indexA.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = indexA.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,7 @@
 		261064CD2950686D00B0AF0D /* SwiftJSLib */ = {
 			isa = PBXGroup;
 			children = (
-				261064F129506B3C00B0AF0D /* index.html */,
+				261064F129506B3C00B0AF0D /* indexA.html */,
 				261064CE2950686D00B0AF0D /* SwiftJSLib.h */,
 				261064D52950687700B0AF0D /* SwiftJSLib.swift */,
 			);
@@ -82,7 +80,6 @@
 		261064DE29506AC300B0AF0D /* SwiftJsLibEx */ = {
 			isa = PBXGroup;
 			children = (
-				261064F329506C0500B0AF0D /* index.html */,
 				261064DF29506AC300B0AF0D /* AppDelegate.swift */,
 				261064E329506AC300B0AF0D /* ViewController.swift */,
 				261064E529506AC300B0AF0D /* Main.storyboard */,
@@ -185,7 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261064F229506B3C00B0AF0D /* index.html in Resources */,
+				261064F229506B3C00B0AF0D /* indexA.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				261064EC29506AC400B0AF0D /* LaunchScreen.storyboard in Resources */,
-				261064F429506C0500B0AF0D /* index.html in Resources */,
 				261064E929506AC400B0AF0D /* Assets.xcassets in Resources */,
 				261064E729506AC300B0AF0D /* Main.storyboard in Resources */,
 			);
