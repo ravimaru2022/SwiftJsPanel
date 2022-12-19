@@ -1,0 +1,3 @@
+# SwiftyLib
+
+initial pod library.
