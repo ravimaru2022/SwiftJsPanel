@@ -1,1 +1,3 @@
-# SwiftJsPanel
+# SwiftyLib
+
+initial pod library.
