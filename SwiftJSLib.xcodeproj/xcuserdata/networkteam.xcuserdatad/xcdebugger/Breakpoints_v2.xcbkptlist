@@ -14,26 +14,42 @@
             filePath = "SwiftJSLib/SwiftJSLib.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "configureWebview(view:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FBDE4CD2-CE49-41F7-B2F4-5E2D58007504"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SwiftJsLibEx/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "29D7EE6C-D643-482E-AFC7-14240CD6E307 - 8449c4074c9daacc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftJSLib.WebkitClass.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
+                  moduleName = "SwiftJSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/networkteam/Desktop/GITHUB/SwiftJsPanel/SwiftJSLib/SwiftJSLib.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "29D7EE6C-D643-482E-AFC7-14240CD6E307 - 8449c4074c9daaed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftJSLib.WebkitClass.userContentController(_: __C.WKUserContentController, didReceive: __C.WKScriptMessage) -&gt; ()"
+                  moduleName = "SwiftJSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/networkteam/Desktop/GITHUB/SwiftJsPanel/SwiftJSLib/SwiftJSLib.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "384">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

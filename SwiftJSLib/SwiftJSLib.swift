@@ -28,6 +28,8 @@ public class WebkitClass: NSObject {
         let contentController = self.webView.configuration.userContentController
         //contentController.add(self.webView as! WKScriptMessageHandler, name: "toggleMessageHandler")
         contentController.add(self, name: "toggleMessageHandler")
+        webView.backgroundColor = UIColor.clear
+        webView.isOpaque = false
 
         //webView.uiDelegate = self
         //webView.navigationDelegate = self
@@ -38,8 +40,16 @@ public class WebkitClass: NSObject {
         //if let url = bundle.url(forResource: "indexA", withExtension: "html") {
         //print(bundle)
         //print(Bundle(for: WebkitClass.self).url(forResource: "indexA", withExtension: ".html")!)
-        if let url = Bundle(for: WebkitClass.self).url(forResource: "indexA", withExtension: ".html") {
-            webView.loadFileURL(url, allowingReadAccessTo: url.deletingLastPathComponent())
+    
+        if var url = Bundle(for: WebkitClass.self).url(forResource: "indexA", withExtension: ".html") {
+            //url = URL(string: "https://www.google.com/")!
+             webView.loadFileURL(url, allowingReadAccessTo: url.deletingLastPathComponent())
+            //let url = URL(string: "https://www.google.com/")
+            //let requestObj = URLRequest(url: url! as URL)
+            //webView.load(requestObj)
+
+            //webView.loadRequest(NSURLRequest(URL: NSURL(string: "https://www.google.com/")))
+
         }
     }
 }
